@@ -25,6 +25,7 @@ Then invoke in Claude Code with `/skill-name`.
 | **debug** | `/debug <error or description>` | Systematic bug investigation and fix workflow |
 | **gen-tests** | `/gen-tests <file or function>` | Generates comprehensive tests for a file or function |
 | **optimize** | `/optimize <file or function>` | Reviews code for performance and efficiency issues |
+| **ard** | `/ard` | Generates a full Architectural Reference Document + standalone HTML for any project |
 
 ## Usage Examples
 
@@ -43,6 +44,9 @@ Then invoke in Claude Code with `/skill-name`.
 
 /optimize PredictionService.java
 /optimize src/app/components/leaderboard/leaderboard.component.ts
+
+/ard
+/ard backend-only
 ```
 
 ## Notes
